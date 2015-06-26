@@ -1,0 +1,7 @@
+TODO for A Typist's Disassembler for the 65816 in Forth 
+Scot W. Stevenson <scot.stevenson@gmail.com>
+First version: 26. June 2015
+whis version: 23. June 2015 
+
+This software is BETA, that is, feature-complete but not extensively tested. Future will will concentrate on stability.
+
