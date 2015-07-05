@@ -1,7 +1,9 @@
 TODO for A Typist's Disassembler for the 65816 in Forth 
 Scot W. Stevenson <scot.stevenson@gmail.com>
 First version: 26. June 2015
-whis version: 23. June 2015 
+whis version: 05. Jul 2015
 
 This software is BETA, that is, feature-complete but not extensively tested. Future will will concentrate on stability.
+
+- See if we can add MSB to BRA addresses we calculate so result is "e008 bra" instead of "08 bra". 
 
