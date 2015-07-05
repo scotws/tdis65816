@@ -328,11 +328,15 @@ create opc-jumptable   make-opc-jumptable
 
    over start !     ( addr u ) 
    over +  limit !  ( addr ) 
-   cr cr 
 
    begin          ( addr ) 
       dup .counter
       dup c@  dup .8bit  step   cr 
    1+ dup  limit @  >  until ; 
 
+cr 
+.( Ready. Use   s" <FILENAME>" loadbinary disassemble   to start.)
+cr 
+
 \ --- END ---
+
