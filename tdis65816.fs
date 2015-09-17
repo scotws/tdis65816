@@ -2,7 +2,7 @@
 \ Copyright 2015 Scot W. Stevenson <scot.stevenson@gmail.com>
 \ Written with gforth 0.7
 \ First version: 23. June 2015
-\ This version: 26. June 2015
+\ This version: 15. Sep 2015
 
 \ This program is free software: you can redistribute it and/or modify
 \ it under the terms of the GNU General Public License as published by
@@ -277,7 +277,7 @@ variable x-flag   \ true: XY are 8 bit
 
 : opc-D0  twig8 ." bne" ;        : opc-D1  2byte ." cmp.diy" ;
 : opc-D2  2byte ." cmp.di" ;     : opc-D3  2byte ." cmp.siy" ;
-: opc-D4  2byte ." phe.di" ;     : opc-D5  2byte ." cmp.dx" ;
+: opc-D4  2byte ." phe.d" ;      : opc-D5  2byte ." cmp.dx" ;
 : opc-D6  2byte ." dec.dx" ;     : opc-D7  2byte ." cmp.dy" ;
 : opc-D8  1byte ." cld" ;        : opc-D9  3byte ." cmp.y" ;
 : opc-DA  1byte ." phx" ;        : opc-DB  1byte ." stp" .stp ; 
